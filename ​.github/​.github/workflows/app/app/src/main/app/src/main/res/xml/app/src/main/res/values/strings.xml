@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hand Mouse</string>
+        <string name="intro">Point your index finger at the front camera to move the pointer. Touch your thumb to your index finger to tap.</string>
+            <string name="status_idle">Stopped</string>
+                <string name="status_running">Running. Show your hand to the front camera.</string>
+                    <string name="step_camera">Camera access</string>
+                        <string name="step_accessibility">Accessibility service (shows the pointer and taps)</string>
+                            <string name="step_model">Hand-tracking model</string>
+                                <string name="step_model_downloading">Downloading hand-tracking model...</string>
+                                    <string name="allow">Allow</string>
+                                        <string name="turn_on">Turn on</string>
+                                            <string name="download">Download</string>
+                                                <string name="sensitivity_label">Pointer sensitivity</string>
+                                                    <string name="sensitivity_hint">Higher: small hand movements cross the whole screen.</string>
+                                                        <string name="start">Start</string>
+                                                            <string name="stop">Stop</string>
+                                                                <string name="restricted_hint">Cannot turn the accessibility service on? On Android 13 and later, apps installed outside the Play Store need extra permission. Open app info, tap the three-dot menu, choose Allow restricted settings, then try again.</string>
+                                                                    <string name="open_app_info">Open app info</string>
+                                                                        <string name="error_model">Could not load the hand-tracking model.</string>
+                                                                            <string name="error_camera">Could not start the front camera.</string>
+                                                                                <string name="error_download">Model download failed. Check your connection, then tap Download.</string>
+                                                                                    <string name="error_accessibility_off">The accessibility service was turned off, so Hand Mouse stopped.</string>
+                                                                                        <string name="notification_channel">Hand Mouse running</string>
+                                                                                            <string name="notification_title">Hand Mouse is on</string>
+                                                                                                <string name="notification_text">Using the front camera to track your hand</string>
+                                                                                                    <string name="a11y_description">Hand Mouse shows a pointer on screen and taps where it points when you touch your thumb to your index finger. It does not read or store what is on your screen.</string>
+                                                                                                    </resources>
+                                                                                                    
